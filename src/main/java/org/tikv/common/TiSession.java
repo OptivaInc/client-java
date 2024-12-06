@@ -727,6 +727,10 @@ public class TiSession implements AutoCloseable {
     return regions;
   }
 
+  public boolean isClosed() {
+    return isClosed;
+  }
+
   private void checkIsClosed() {
     if (isClosed) {
       throw new RuntimeException("this TiSession is closed!");

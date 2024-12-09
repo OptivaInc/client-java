@@ -677,7 +677,7 @@
         <repository>
             <id>github</id>
             <name>Github</name>
-            <url>https://maven.pkg.github.com/OptivaInc/client-java</url>
+            <url>https://maven.pkg.github.com/OptivaInc/tikv-client-java</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -685,7 +685,7 @@
         <snapshotRepository>
             <id>github</id>
             <name>Github</name>
-            <url>https://maven.pkg.github.com/OptivaInc/client-java</url>
+            <url>https://maven.pkg.github.com/OptivaInc/tikv-client-java</url>
         </snapshotRepository>
     </distributionManagement>
 </project>
